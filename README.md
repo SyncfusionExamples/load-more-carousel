@@ -9,7 +9,7 @@ The following properties are used to achieve this support:
 
 *   LoadMoreView
 
-# AllowLoadMore
+## AllowLoadMore
 By enabling the AllowLoadMore property, the LoadMore support works in the carousel view.
 
 **[XAML]**
@@ -40,7 +40,7 @@ By enabling the AllowLoadMore property, the LoadMore support works in the carous
     </ContentPage.Content>
 </ContentPage>
 ```
-# LoadMoreItemsCount
+## LoadMoreItemsCount
 Number of items can be maintained in the carousel control by using the LoadMoreItemsCount property. By using the LoadMoreItemsCount property, numerous items can be separated.
 
 **[XAML]**
@@ -73,7 +73,7 @@ Number of items can be maintained in the carousel control by using the LoadMoreI
     </ContentPage.Content>
 </ContentPage>
 ```
-# LoadMoreView
+## LoadMoreView
 Custom view can be passed instead of the LoadMore label by using the LoadMoreView property.
 
 **[XAML]**
@@ -118,7 +118,7 @@ Custom view can be passed instead of the LoadMore label by using the LoadMoreVie
     </ContentPage.Content>
 </ContentPage>
 ```
-# LoadMore method
+## LoadMore method
 To load more items programmatically, LoadMore method can be called which loads the items dynamically to the UI based on the LoadMoreItemsCount API value.
 
 **[XAML]**
